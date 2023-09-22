@@ -1,0 +1,11 @@
+{
+    "name": "NestJSPerformanceTest",
+    "build": {
+        "dockerfile": "./Dockerfile"
+    },
+    "remoteUser": "node",
+    "mounts": [
+        "source=bashhistory,target=/commandhistory,type=volume",
+        "source=npm,target=/home/node/.npm,type=volume"
+    ]
+}
