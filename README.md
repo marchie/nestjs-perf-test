@@ -27,10 +27,10 @@ These should make the tests more comparable across different systems.
 
 ## Node v18 running on 2019 16-inch MacBook Pro
 
-* **Unit tests:** 
-* **End-to-end tests:**
+* **Unit tests:** `1.809 s` `1.786 s` `1.800 s`
+* **End-to-end tests:** `2.060 s` `2.096 s` `2.042 s`
 
 ## Node v18 + TypeScript DevContainer running on 2019 16-inch MacBook Pro
 
-* **Unit tests:** `3.362s` `3.25s` `3.519s`
-* **End-to-end tests:** `4.035s` `3.961s` `3.997s`
+* **Unit tests:** `3.362 s` `3.250 s` `3.519 s`
+* **End-to-end tests:** `4.035 s` `3.961 s` `3.997 s`
