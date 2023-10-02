@@ -25,12 +25,29 @@ These should make the tests more comparable across different systems.
 
 # Results
 
+The time taken to complete each operation in seconds:
+
 ## Node v18 running on 2019 16-inch MacBook Pro
 
-* **Unit tests:** `1.809 s` `1.786 s` `1.800 s`
-* **End-to-end tests:** `2.060 s` `2.096 s` `2.042 s`
+* **Unit tests:** `1.809` `1.786` `1.800`
+* **End-to-end tests:** `2.060` `2.096` `2.042`
+
+## Node v18 running on Windows laptop
+
+* **Unit tests:** `2.925` `2.807` `2.809`
+* **End-to-end tests:** `3.247` `3.251` `3.243`
 
 ## Node v18 + TypeScript DevContainer running on 2019 16-inch MacBook Pro
 
-* **Unit tests:** `3.362 s` `3.250 s` `3.519 s`
-* **End-to-end tests:** `4.035 s` `3.961 s` `3.997 s`
+* **Unit tests:** `3.362` `3.250` `3.519`
+* **End-to-end tests:** `4.035` `3.961` `3.997`
+
+## Node v18 + TypeScript DevContainer running on employer Windows laptop
+
+* **Unit tests:** `110.700` `75.106` `49.609`
+* **End-to-end tests:** `78.201` `70.119` `73.495`
+
+## Node v18 + TypeScript DevContainer running on employer Citrix VDI
+
+* **Unit tests:** `117.327` `135.476` `150.032`
+* **End-to-end tests:** `148.107` `139.019` `138.574`
